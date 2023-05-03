@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aplicación de Ahorro - Ahorrado</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto mt-5">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Ahorrado</h3>
+              <hr />
+              <form>
+                <div class="form-group">
+                  <label for="ahorrado">Cantidad Ahorrada:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="ahorrado"
+                    placeholder="Ingrese la cantidad ahorrada"
+                    required />
+                </div>
+                <div class="form-group">
+                  <label for="total">Meta de Ahorro Total:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="total"
+                    placeholder="Ingrese la meta de ahorro total"
+                    required />
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-block"
+                  id="submit-btn">
+                  Calcular Ahorro
+                </button>
+              </form>
+              <hr />
+              <div id="result"></div>
+              <hr />
+              <a href="../index.html" class="btn btn-secondary btn-block"
+                >Regresar</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
